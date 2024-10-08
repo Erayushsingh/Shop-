@@ -34,26 +34,32 @@ To get started with the project, follow these steps:
 
    ```bash
    git clone https://github.com/Erayushsingh/Resturant-Admin.git
+
 2. Navigate to the project directory:
+
    ```bash
-   cd Resturant-Admin
-3.Install the dependencies:
-  ```bash
-  npm install
+    cd Resturant-Admin
 
-4.Set up your Firebase project:
+3. Install the dependencies:
 
->Create a Firebase project in the Firebase Console.
->Add your Firebase configuration to the project.
+   ```bash
+   npm install
+
+4. Set up your Firebase project:
+
+   >Create a Firebase project in the Firebase Console.
+   >Add your Firebase configuration to the project.
 
 5. Start the development server:
- ```bash
-   npm run dev
 
-##Usage
+   ```bash
+   npm run dev
+   
+
+## Usage
 Once the development server is running, you can access the application at your local port.
 
-##Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.
 
 
