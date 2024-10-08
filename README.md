@@ -1,8 +1,55 @@
-# React + Vite
+# Restaurant Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Restaurant Admin Dashboard! This project is designed to provide an intuitive interface for restaurant management, utilizing modern web technologies.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- User authentication with Firebase
+- Responsive design using Tailwind CSS
+- Interactive alerts and notifications with SweetAlert
+- Smooth animations with Animate.css
+- Easy to use and maintain
+
+## Technologies Used
+
+- **Frontend**: Vite, Tailwind CSS, Animate.css
+- **Backend**: Firebase (Authentication, Firestore)
+- **UI Alerts**: SweetAlert
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Erayushsingh/Resturant-Admin.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd Resturant-Admin
+   
+3.Install the dependencies:
+  ```bash
+  npm install
+4. Set up your Firebase project:
+   >Create a Firebase project in the Firebase Console.
+   >Add your Firebase configuration to the project.
+
+5. Start the development server:
+    ```bash
+    npm run dev
+
+Once the development server is running, you can access the application at http://localhost:3000 (or the port specified in your terminal).
+
+Contributing:
+Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.
